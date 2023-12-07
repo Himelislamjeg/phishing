@@ -91,7 +91,7 @@ $ bash phishing.sh
 </p>
 
 
-### * ENJOY USING THE TOOLS ^_^ *
+### ENJOY USING THE TOOLS ^_^
 
 
 <!-- // -->
