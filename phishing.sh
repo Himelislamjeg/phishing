@@ -153,9 +153,9 @@ kill_pid() {
 # Check for a newer release
 check_update(){
 	echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Checking for update : "
-	relase_url='https://api.github.com/repos/htr-tech/zphisher/releases/latest'
+	relase_url='https://api.github.com/repos/mamba-9mm/phishing/release/latest'
 	new_version=$(curl -s "${relase_url}" | grep '"tag_name":' | awk -F\" '{print $4}')
-	tarball_url="https://github.com/htr-tech/zphisher/archive/refs/tags/${new_version}.tar.gz"
+	tarball_url="https://github.com/mamba-9mm/phishing/archive/refs/tags/${new_version}.tar.gz"
 
 	if [[ $new_version != $__version__ ]]; then
 		echo -ne "${ORANGE}update found\n"${WHITE}
@@ -165,10 +165,10 @@ check_update(){
 		curl --silent --insecure --fail --retry-connrefused \
 		--retry 3 --retry-delay 2 --location --output ".zphisher.tar.gz" "${tarball_url}"
 
-		if [[ -e ".zphisher.tar.gz" ]]; then
-			tar -xf .zphisher.tar.gz -C "$BASE_DIR" --strip-components 1 > /dev/null 2>&1
+		if [[ -e ".phishing.tar.gz" ]]; then
+			tar -xf .phishing.tar.gz -C "$BASE_DIR" --strip-components 1 > /dev/null 2>&1
 			[ $? -ne 0 ] && { echo -e "\n\n${RED}[${WHITE}!${RED}]${RED} Error occured while extracting."; reset_color; exit 1; }
-			rm -f .zphisher.tar.gz
+			rm -f .phishing.tar.gz
 			popd > /dev/null 2>&1
 			{ sleep 3; clear; banner_small; }
 			echo -ne "\n${GREEN}[${WHITE}+${GREEN}] Successfully updated! Run zphisher again\n\n"${WHITE}
@@ -200,7 +200,7 @@ banner() {
 		${ORANGE} | |_) | | | | \__ \ | | | | | | | (_| |
 		${ORANGE} | .__/|_| |_|_|___/_| |_|_|_| |_|\__. |
 		${ORANGE} | |                              __ | |
-		${ORANGE} |_|                             |____/${RED}Version : ${__version__}
+		${ORANGE} |_|                             |____/   ${RED}Version : ${__version__}
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Mamba Mentality (mamba-9mm)${WHITE}
 	EOF
@@ -214,9 +214,9 @@ banner_small() {
 		${BLUE}██████╗ ██╗  ██╗██╗███████╗██╗  ██╗██╗███╗    ██╗ ██████╗ 
 		${BLUE}██╔══██╗██║  ██║██║██╔════╝██║  ██║██║████╗   ██║██╔════╝ 
 		${BLUE}██████╔╝███████║██║███████╗███████║██║██╔██╗ ██║██║  ███╗
-		${BLUE}██╔═══╝ ██╔══██║██║╚════██║██╔══██║██║██║╚██╗██║██║   ██║
-		${BLUE}██║     ██║  ██║██║███████║██║  ██║██║██║  ╚████║ ╚██████╔╝
-		${BLUE}╚═╝      ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝${WHITE} ${__version__}
+		${BLUE}██╔═══╝ ██╔══██║██║╚════██║██╔══██║██║██║╚██╗ ██║██║   ██║
+		${BLUE}██║     ██║  ██║██║███████║██║  ██║██║██║  ╚████║╚██████╔╝
+		${BLUE}╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝${WHITE} ${__version__}
 	EOF
 }
 
