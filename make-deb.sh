@@ -2,7 +2,7 @@
 
 # Make Deb Package for Phishing (^.^)
 _PACKAGE=phishing
-_VERSION=1.0
+_VERSION=6.9
 _ARCH="all"
 PKG_NAME="${_PACKAGE}_${_VERSION}_${_ARCH}.deb"
 
