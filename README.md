@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-6.9-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-2.3.5-green?style=for-the-badge">
   <img src="https://img.shields.io/github/license/mamba-9mm/phishing?style=for-the-badge">
   <img src="https://img.shields.io/github/stars/mamba-9mm/phishing?style=for-the-badge">
   <img src="https://img.shields.io/github/issues/mamba-9mm/phishing?color=red&style=for-the-badge">
