@@ -40,17 +40,17 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 ### Installation (Termux)
 You can easily install phishing in Termux by using the command below
 ```
-● termux-setup-storage
-● apt update
-● apt upgrade
-● pkg install wget
-● pkg install php
-● pkg install curl
-● pkg install git
-● git clone https://github.com/mamba-9mm/phishing.git
-● cd phishing
-● chmod +x phishing.sh
-● bash phishing.sh
+$ termux-setup-storage
+$ apt update
+$ apt upgrade
+$ pkg install wget
+$ pkg install php
+$ pkg install curl
+$ pkg install git
+$ git clone https://github.com/mamba-9mm/phishing.git
+$ cd phishing
+$ chmod +x phishing.sh
+$ bash phishing.sh
 ```
 ### A Note : 
 ***Termux discourages hacking*** .. So never discuss anything related to *phishing* in any of the termux discussion groups. For more check : [wiki](https://wiki.termux.com/wiki/Hacking)
