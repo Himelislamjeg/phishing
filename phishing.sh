@@ -2,7 +2,7 @@
 
 ##   Phisher 	: 	Automated Phishing Tool
 ##   Author 	: 	MAMBA MENTALITY 
-##   Version 	: 	6.9
+##   Version 	:       2.3.5
 ##   Github 	: 	https://github.com/mamba-9mm/phishing
 
 
